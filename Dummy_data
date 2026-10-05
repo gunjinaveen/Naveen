@@ -1,0 +1,61 @@
+
+HP@naveen UCRT64 ~
+$ cd d
+bash: cd: d: No such file or directory
+
+HP@naveen UCRT64 ~
+$ git init
+Initialized empty Git repository in C:/Users/HP/.git/
+
+HP@naveen UCRT64 ~ (master)
+$ git config --global use.user gunjinaveen
+
+HP@naveen UCRT64 ~ (master)
+$ git clone https://github.com/gunjinaveen/Naveen.git
+Cloning into 'Naveen'...
+warning: You appear to have cloned an empty repository.
+
+HP@naveen UCRT64 ~ (master)
+$ git status
+warning: could not open directory 'AppData/Local/Application Data/': Permission denied
+warning: could not open directory 'Application Data/': Permission denied
+warning: could not open directory 'Cookies/': Permission denied
+warning: could not open directory 'Local Settings/': Permission denied
+warning: could not open directory 'My Documents/': Permission denied
+warning: could not open directory 'NetHood/': Permission denied
+warning: could not open directory 'PrintHood/': Permission denied
+warning: could not open directory 'Recent/': Permission denied
+warning: could not open directory 'SendTo/': Permission denied
+warning: could not open directory 'Start Menu/': Permission denied
+warning: could not open directory 'Templates/': Permission denied
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        .gitconfig
+        AppData/
+        Contacts/
+        Desktop/
+        Documents/
+        Downloads/
+        Favorites/
+        IntelGraphicsProfiles/
+        Links/
+        Music/
+        NTUSER.DAT
+        NTUSER.DAT{bcb7da1a-a594-11f1-8a2c-4cd5777c8618}.TM.blf
+        NTUSER.DAT{bcb7da1a-a594-11f1-8a2c-4cd5777c8618}.TMContainer00000000000000000001.regtrans-ms
+        NTUSER.DAT{bcb7da1a-a594-11f1-8a2c-4cd5777c8618}.TMContainer00000000000000000002.regtrans-ms
+        Naveen/
+        OneDrive/
+        Pictures/
+        Saved Games/
+        Searches/
+        Videos/
+        naveen.sql
+        naveen1.sql
+        ntuser.dat.LOG1
+        ntuser.dat.LOG2
+        ntuser.in
